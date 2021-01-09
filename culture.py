@@ -1,9 +1,3 @@
-
-###################
-####python 3.x#####
-#discord.py==1.4.0#
-###################
-
 import discord
 import random
 
@@ -20,7 +14,7 @@ async def on_ready():
 @client.event
 async def on_message(message):
     if message.content.startswith('!문상') or message.content.startswith('!문화상품권'):
-        a = random.randint(2100, 3800)
+        a = random.randint(2000, 4900)
         b = random.randint(1000, 9999)
         b2 = random.randint(1000, 9999)
         c = random.randint(100000,999999)
